@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Var, Let, Const Scope Example</title>
+</head>
+<body>
+    <script>
+        var x = 4; // global scope variable
+        const z = 9; // constant variable
+
+        function f() {
+            x = 9; // modifies global x
+            let y = 8; // block scope variable
+
+            if (true) {
+                let z = 18; // block scoped, shadows global z
+                console.log("y in if block is " + y); // accessible inside function
+            }
+        }
+
+        f(); // function call
+    </script>
+</body>
+</html>
