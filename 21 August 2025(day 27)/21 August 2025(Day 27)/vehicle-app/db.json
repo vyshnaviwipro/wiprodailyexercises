@@ -1,0 +1,46 @@
+{
+  "vehicles": [
+    {
+      "id": 1,
+      "make": "Toyota",
+      "fuelType": "Petrol",
+      "model": "Corolla",
+      "price": 1500000
+    },
+    {
+      "id": 2,
+      "make": "Hyundai",
+      "fuelType": "Diesel",
+      "model": "Creta",
+      "price": 1700000
+    },
+    {
+      "id": 3,
+      "make": "Tata",
+      "fuelType": "EV",
+      "model": "Nexon",
+      "price": 1400000
+    },
+    {
+      "id": 4,
+      "make": "Honda",
+      "fuelType": "Petrol",
+      "model": "City",
+      "price": 1600000
+    },
+    {
+      "id": 5,
+      "make": "Mahindra",
+      "fuelType": "Diesel",
+      "model": "Scorpio",
+      "price": 1800000
+    },
+    {
+      "id": 6,
+      "make": "Kia",
+      "fuelType": "Petrol",
+      "model": "Seltos",
+      "price": 1550000
+    }
+  ]
+}
