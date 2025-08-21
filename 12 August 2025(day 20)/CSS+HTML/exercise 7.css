@@ -1,0 +1,15 @@
+.pad {
+    padding: 10px 20px 5px 90px; /* top right bottom left */
+}
+
+.brdr {
+    border: 3px solid blue;
+}
+
+.mrgn {
+    margin: 100px 50px 30px 200px; /* top right bottom left */
+}
+
+.bg {
+    background-color: lightyellow;
+}
