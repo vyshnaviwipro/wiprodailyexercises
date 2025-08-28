@@ -1,0 +1,11 @@
+<div>
+  <!-- Load Button -->
+  <button (click)="loadCountries()">Load</button>
+
+  <!-- Dropdown -->
+  <select>
+    <option value="">-- Select Country --</option>
+    <option *ngFor="let c of dropdownList" [value]="c">{{ c }}</option>
+  </select>
+</div>
+

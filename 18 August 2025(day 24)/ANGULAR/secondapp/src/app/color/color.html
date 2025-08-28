@@ -1,0 +1,13 @@
+<h2>Choose a color:</h2>
+
+<select [(ngModel)]="color">
+  <option value="red">Red</option>
+  <option value="green">Green</option>
+  <option value="black">Black</option>
+  <option value="default">Default</option>
+</select>
+
+<p [style.color]="getColor()">
+  This text changes color based on your selection.
+</p>
+
