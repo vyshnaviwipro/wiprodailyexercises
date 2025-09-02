@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package com.wipro.usermngmt.entity;
 
 import jakarta.persistence.Column;
@@ -25,3 +26,32 @@ public class User {
 	@Column
 	String passWord;
 }
+=======
+package com.wipro.usermngmt.entity;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+import lombok.Data;
+
+@Entity
+@Table(name="user")
+@Data
+public class User {
+	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	int id;
+	
+	@Column
+	String name;
+	
+	@Column
+	String email;
+	
+	@Column
+	String passWord;
+}
+>>>>>>> cde7585e31163cea2ffaa65881e3528e8317613f
