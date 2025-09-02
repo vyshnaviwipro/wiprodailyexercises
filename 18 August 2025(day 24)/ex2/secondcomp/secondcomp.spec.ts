@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { Secondcomp } from './secondcomp';
@@ -21,3 +22,28 @@ describe('Secondcomp', () => {
     expect(component).toBeTruthy();
   });
 });
+=======
+import { ComponentFixture, TestBed } from '@angular/core/testing';
+
+import { Secondcomp } from './secondcomp';
+
+describe('Secondcomp', () => {
+  let component: Secondcomp;
+  let fixture: ComponentFixture<Secondcomp>;
+
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      imports: [Secondcomp]
+    })
+    .compileComponents();
+
+    fixture = TestBed.createComponent(Secondcomp);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+});
+>>>>>>> 817c98beb053107e8742942ddea2eb196f6efef8

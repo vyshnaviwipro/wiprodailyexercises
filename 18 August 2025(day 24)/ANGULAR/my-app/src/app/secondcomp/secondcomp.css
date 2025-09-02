@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .second-box {
   background-color: lightcoral;
   padding: 15px;
@@ -7,3 +8,14 @@
   text-align: center;
   margin-top: 20px;
 }
+=======
+.second-box {
+  background-color: lightcoral;
+  padding: 15px;
+  border-radius: 8px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+>>>>>>> 817c98beb053107e8742942ddea2eb196f6efef8

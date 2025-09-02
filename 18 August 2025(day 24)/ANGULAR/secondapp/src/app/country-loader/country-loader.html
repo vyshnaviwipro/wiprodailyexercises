@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div>
   <!-- Load Button -->
   <button (click)="loadCountries()">Load</button>
@@ -9,3 +10,16 @@
   </select>
 </div>
 
+=======
+<div>
+  <!-- Load Button -->
+  <button (click)="loadCountries()">Load</button>
+
+  <!-- Dropdown -->
+  <select>
+    <option value="">-- Select Country --</option>
+    <option *ngFor="let c of dropdownList" [value]="c">{{ c }}</option>
+  </select>
+</div>
+
+>>>>>>> 817c98beb053107e8742942ddea2eb196f6efef8

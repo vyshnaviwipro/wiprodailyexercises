@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!---
 <!DOCTYPE html>
 <html>
@@ -42,3 +43,49 @@ function showLength() {
 </body>
 </html>
 
+=======
+<!---
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text Length Checker</title>
+</head>
+<body>
+
+<input type="text" id="myInput" placeholder="Type something...">
+<button onclick="showLength()">Check Length</button>
+
+<p id="result"></p>
+
+<script>
+function showLength() {
+    let text = document.getElementById("myInput").value;
+    let length = text.length;
+    document.getElementById("result").innerHTML = "Length: " + length;
+}
+</script>
+
+</body>
+</html>-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text Length in Console</title>
+</head>
+<body>
+
+<input type="text" id="myInput" placeholder="Type something...">
+<button onclick="showLength()">Check Length</button>
+
+<script>
+function showLength() {
+    let text = document.getElementById("myInput").value;
+    let length = text.length;
+    console.log("Length: " + length);
+}
+</script>
+
+</body>
+</html>
+
+>>>>>>> 817c98beb053107e8742942ddea2eb196f6efef8

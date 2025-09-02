@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Ex2 */
 .blue-box {
   background-color: #2196F3; 
@@ -10,4 +11,18 @@
 .italic-text {
   font-style: italic;
   font-size: 16px;
+=======
+/* Ex2 */
+.blue-box {
+  background-color: #2196F3; 
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+
+.italic-text {
+  font-style: italic;
+  font-size: 16px;
+>>>>>>> 817c98beb053107e8742942ddea2eb196f6efef8
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     font-family: Arial, sans-serif;
     text-align: center;
@@ -21,3 +22,28 @@ button {
     font-weight: bold;
     color: blue;
 }
+=======
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+input {
+    padding: 10px;
+    margin: 5px;
+    width: 150px;
+    font-size: 16px;
+}
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+}
+>>>>>>> 817c98beb053107e8742942ddea2eb196f6efef8
